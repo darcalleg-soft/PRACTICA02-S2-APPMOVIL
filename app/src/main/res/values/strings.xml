@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">PRACTICA02S2-APPMOVIL-SE6</string>
+
+    <!-- Comunes -->
+    <string name="correo">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="tipo_documento">Tipo de documento</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="dia">Día</string>
+    <string name="mes">Mes</string>
+    <string name="anio">Año</string>
+
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string name="genero">Género</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="volver">Volver</string>
+    <string name="avatar">Usuario</string>
+
+    <string-array name="tipos_documento">
+        <item>DNI</item>
+        <item>Carné de extranjería</item>
+        <item>Pasaporte</item>
+    </string-array>
+
+    <!-- Login -->
+    <string name="login_titulo">Iniciar sesión</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="sin_cuenta">¿No tienes cuenta?</string>
+    <string name="registrarse">Regístrate</string>
+    <string name="bienvenida">Bienvenido, %1$s</string>
+
+    <!-- Registro -->
+    <string name="registro_titulo">Crear cuenta</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="con_cuenta">¿Ya tienes cuenta?</string>
+    <string name="cuenta_creada">Cuenta creada. Ya puedes iniciar sesión.</string>
+
+    <!-- Errores -->
+    <string name="error_requerido">Completa este campo</string>
+    <string name="error_correo">Escribe un correo válido, por ejemplo nombre@correo.com</string>
+    <string name="error_contrasena_corta">Usa al menos 6 caracteres</string>
+    <string name="error_correo_existe">Ya hay una cuenta con este correo</string>
+    <string name="error_tipo_documento">Elige un tipo de documento</string>
+    <string name="error_fecha">Elige día, mes y año</string>
+    <string name="error_fecha_no_existe">Esa fecha no existe, revisa el día</string>
+    <string name="error_fecha_futura">La fecha no puede ser posterior a hoy</string>
+    <string name="error_genero">Elige una opción de género</string>
+    <string name="error_sin_cuenta">No hay una cuenta con este correo</string>
+    <string name="error_contrasena_incorrecta">Contraseña incorrecta</string>
+</resources>

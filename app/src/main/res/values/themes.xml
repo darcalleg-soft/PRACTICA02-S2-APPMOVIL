@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.PRACTICA02S2APPMOVILSE6" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.PRACTICA02S2APPMOVILSE6" parent="Base.Theme.PRACTICA02S2APPMOVILSE6" />
+
+    <style name="Texto.Titulo" parent="">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/texto</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Texto.Subtitulo" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/texto_secundario</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Texto.Enlace" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primario</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Campo" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="Boton" parent="Widget.Material3.Button">
+        <item name="android:minHeight">52dp</item>
+    </style>
+
+    <style name="Boton.Contorno" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">52dp</item>
+    </style>
+</resources>
